@@ -19,10 +19,14 @@ public class Caballo {
 
             // Definimos los movimientos posibles del caballo en forma de L.
             int[][] movimientos = {
-                    {-2, -1}, {-2, 1},
-                    {-1, -2}, {-1, 2},
-                    {1, -2}, {1, 2},
-                    {2, -1}, {2, 1}
+                    {-2, -1}, 
+                    {-2, 1},
+                    {-1, -2}, 
+                    {-1, 2},
+                    {1, -2}, 
+                    {1, 2},
+                    {2, -1}, 
+                    {2, 1}
             };
 
             // Iteramos a través de los movimientos posibles.
